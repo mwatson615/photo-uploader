@@ -1,0 +1,8 @@
+body {
+	text-align: center;
+	background: linear-gradient(45deg, #93a7c6, #3c4656, #949699);
+}
+
+#myImg {
+	max-width: 500px;
+}

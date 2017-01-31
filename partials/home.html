@@ -1,0 +1,9 @@
+<h2>Home Partial</h2>
+
+<label for="#fileInput">Upload your cute pictures</label>
+<br>
+<input type="file" name="file" id="fileInput">
+
+<br>
+<div ng-repeat="image in images">
+<img id="myImg" src="{{images.src}}">
